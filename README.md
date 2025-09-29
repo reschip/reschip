@@ -1,28 +1,25 @@
-# 👋 Hi, I'm Andrés Cruz Chipol  
+# 👋 Hi, I'm Andrés Chipol  
 
-🎓 Master's student in Computer Science | 💻 AI & Systems Enthusiast  
+🎓 MSc. Student in Computer Science (AI) @ CINVESTAV  
+🎓 B.Sc. in Computer Science @ BUAP  
+💻 ML Engineer | 🤖 LLMs & Intelligent Agents | ⚙️ MLOps Engineer  
 
 ---
 
 ## 🚀 About Me
-- 🔹 1+ year as **AI Analyst at Layer7MX**, focusing on:
-  - MLOps with **Docker, MLflow, Weights & Biases**
-  - Data analysis, visualization, and classical ML training
-  - Experimentation with the latest in **LLMs, agents, and OpenAI**
-- 🔹 Passionate about **Computer Science foundations**: algorithms, OS, networks, compilers, and databases.
-- 🔹 Interested in **research and applied AI**, from system-level optimizations to large-scale data workflows.  
-- 🎮 I also enjoy **Minecraft** and multiplayer online games in my free time.  
-
----
-
-## 🛠️ Tech Stack
-- **Languages:** C, Java, Python, SQL  
-- **AI/ML Tools:** scikit-learn, MLflow, W&B, Docker  
-- **Web/Frontend:** Astro, Tailwind, Bun  
-- **Databases:** MySQL, PostgreSQL  
-- **Other:** Linux, Git, Bash  
+I’m passionate about building intelligent systems that **bridge research and real-world applications**.  
+- 🧠 Experience as **AI Analyst @ Layer7.mx** (LLMs, agents, MLOps pipelines, cloud, Docker, classic ML, DL).  
+- 🏥 **Healthcare AI intern @ Hospital Ángeles Puebla** (DL for early cancer detection).  
+- 📊 **Research projects @ BUAP & CIMAT** (data pipelines, sentiment analysis, web scraping).  
+- 🎮 Outside tech: I enjoy Cities Skylines, Minecraft,RE,Survivals/Horror, and multiplayer games.  
 
 ---
 
 
-⭐️ *“Building the bridge between AI research and real-world systems.”*
+## 🛠️ Skills & Tools
+**Languages:** Python, C, Java, R, SQL, PHP, JavaScript  
+**AI/ML:** TensorFlow, Keras, scikit-learn, LangChain, LangGraph  
+**MLOps/Infra:** MLflow, W&B, Docker, FastAPI, Linux, Cloud  
+**Data Science:** Pandas, NumPy, Matplotlib, RStudio, ETL  
+
+⭐️ *"AI is not just research — it’s systems that impact people."*
