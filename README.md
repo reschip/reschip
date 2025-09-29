@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Andrés Chipol  
+# 👋 Hi, I'm Andrés Cruz Chipol  
 
 🎓 Master's student in Computer Science | 💻 AI & Systems Enthusiast  
 
