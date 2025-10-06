@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Andrés Chipol  
+# 👋 Hi, I'm Andrés Cruz Chipol  
 
 🎓 MSc. Student in Computer Science (AI) @ CINVESTAV  
 🎓 B.Sc. in Computer Science @ BUAP  
