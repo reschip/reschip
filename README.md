@@ -21,7 +21,7 @@
 <br>
 
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=reschip&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&langs_count=6&hide=html,css,jupyter%20notebook" width="340" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=reschip&theme=tokyonight" width="340" />
 </div>
 
 ### // THE ENGINEER
@@ -63,4 +63,3 @@ I am a **Master's Student** in Computer Science at **CINVESTAV**, focused on the
 <div align="center">
   <small style="color: #888;">research • build • deploy</small>
 </div>
-
