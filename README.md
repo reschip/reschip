@@ -38,6 +38,7 @@ I am a **Master's Student** in Computer Science at **CINVESTAV**, focused on the
 **01. AI & GENERATIVE MODELS**
 <br>
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat-square&logo=TensorFlow&logoColor=white) ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=flat-square&logoColor=black) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=flat-square&logo=Keras&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat-square&logo=scikit-learn&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-11.8-76B900.svg)
 
 <br>
 
@@ -62,3 +63,12 @@ I am a **Master's Student** in Computer Science at **CINVESTAV**, focused on the
 <div align="center">
   <small style="color: #888;">research • build • deploy</small>
 </div>
+
+## 🚀 Quick Start
+```python
+import torch
+
+# Crear tensor en GPU
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+x = torch.randn(1000, 1000).to(device)
+```
