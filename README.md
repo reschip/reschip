@@ -2,8 +2,7 @@
 
   # ANDRÉS CRUZ CHIPOL
   
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=A9A9A9&center=true&vCenter=true&width=600&lines=MSc.+Computer+Science+(AI)+%40+CINVESTAV;Architecting+LLMs+%26+Autonomous+Agents;Bridging+Research+and+Production+MLOps)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=A9A9A9&center=true&vCenter=true&width=600&lines=MSc.+Student+%40+CINVESTAV;Building+High-Performance+AI+Systems;C%2B%2B+%7C+Python+%7C+Rust+%7C+Algorithms)](https://git.io/typing-svg)
   <p>
     <a href="https://linkedin.com/in/andrescruzchipol" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
