@@ -21,4 +21,4 @@ Infra & MLOps · Docker · Kubernetes · MLflow · AWS · Google Cloud · Linux
 
 ---
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=reschip&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6b7280&text_color=9ca3af" height="165" alt="Top languages" />
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=reschip&layout=compact&theme=default)
