@@ -15,5 +15,5 @@ Infra & MLOps · Docker · Kubernetes · MLflow · AWS · Google Cloud · Linux
 
 <p align="left">
   <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=reschip&theme=github_dark&hide_border=true" height="150"/>
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=reschip&layout=compact&theme=github_dark&hide_border=true" height="150"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=reschip&layout=compact&theme=github_dark&hide_border=true&hide=Jupyter%20Notebook" height="150"/>
 </p>
