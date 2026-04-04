@@ -1,5 +1,5 @@
 # Andrés Cruz Chipol
-MSc. Student @ CINVESTAV · AI & high-performance systems
+MSc. Student @ CINVESTAV · AI & ML
 
 [LinkedIn](https://linkedin.com/in/andrescruzchipol) · [Academic](https://computacion.cs.cinvestav.mx/~andres.cruz/) · [Website](https://andreschipol.com)
 
