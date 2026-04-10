@@ -6,12 +6,12 @@ MSc. Student @ CINVESTAV · AI & ML
 **Research:** Agentic workflows & AI architectures  
 **Work:** AI Analyst @ Layer7.mx · Healthcare AI @ Hospital Ángeles
 
-**Tecnologías**
+**Technologies**
 
-Lenguajes · Python · Rust · C++ · C · Bash · SQL  
-AI & ML · PyTorch · TensorFlow · Hugging Face · LangChain · OpenAI · CUDA  
-Backend & datos · FastAPI · PostgreSQL · MongoDB · Streamlit · pandas · NumPy  
-Infra & MLOps · Docker · Kubernetes · MLflow · AWS · Google Cloud · Linux  
+**Languages** · Python · Rust · C++ · C · Bash · SQL  
+**AI & ML** · PyTorch · TensorFlow · Hugging Face · LangChain · OpenAI · CUDA  
+**Backend & Data** · FastAPI · PostgreSQL · MongoDB · Streamlit · pandas · NumPy  
+**Infra & MLOps** · Docker · Kubernetes · MLflow · AWS · Google Cloud · Linux  
 
 <p align="left">
   <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=reschip&theme=github_dark&hide_border=true" height="150"/>
