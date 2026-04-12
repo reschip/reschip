@@ -1,7 +1,7 @@
 # Andrés Cruz Chipol
 MSc. Student @ CINVESTAV · AI & ML
 
-[LinkedIn](https://linkedin.com/in/andrescruzchipol) · [Academic](https://computacion.cs.cinvestav.mx/~andres.cruz/) · [Website](https://andreschipol.com)
+[LinkedIn](https://linkedin.com/in/andreschipol) · [Academic](https://computacion.cs.cinvestav.mx/~andres.cruz/) · [Website](https://andreschipol.com)
 
 **Research:** Agentic workflows & AI architectures  
 **Work:** AI Analyst @ Layer7.mx · Healthcare AI @ Hospital Ángeles
