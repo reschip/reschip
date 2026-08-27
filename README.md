@@ -4,6 +4,7 @@ MSc. Student @ CINVESTAV · AI & ML
 [LinkedIn](https://linkedin.com/in/andreschipol) · [Academic](https://computacion.cs.cinvestav.mx/~andres.cruz/) · [Website](https://andreschipol.com)
 
 **Research:** SNN / GANS / AE
+
 **Work:** AI Analyst @ Layer7.mx · Healthcare AI @ Hospital Ángeles
 
 **Technologies**
