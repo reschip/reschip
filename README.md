@@ -11,9 +11,9 @@ Machine Learning Engineer · Deep Learning · ML Systems · Applied ML Research
 
 **Machine Learning** · Python · PyTorch · TensorFlow · Keras · Scikit-Learn · Hugging Face  
 **ML Systems & MLOps** · MLflow · Weights & Biases · Docker · Kubernetes · FastAPI · Linux  
-**Model Serving** · vLLM · Ollama · CUDA  
+**Model Serving** · vLLM · Ollama · CUDA · llama.cpp
 **Data & Backend** · Pandas · NumPy · PostgreSQL · MongoDB · SQLAlchemy · Gradio · Streamlit  
-**Generative AI** · LLMs · LangChain · OpenAI  
+**Generative AI** · LLMs · LangChain · LangGraph · OpenAI  
 **Systems & Programming** · C++ · Rust · C · Bash · SQL  
 **Cloud & CI/CD** · AWS · Azure · Google Cloud · Git · GitHub Actions
 
