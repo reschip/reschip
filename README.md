@@ -1,18 +1,21 @@
 # Andrés Cruz Chipol
-MSc. Student @ CINVESTAV · AI & ML
+Machine Learning Engineer · Deep Learning · ML Systems · Applied ML Research
 
 [LinkedIn](https://linkedin.com/in/andreschipol) · [Academic](https://computacion.cs.cinvestav.mx/~andres.cruz/) · [Website](https://andreschipol.com)
 
-**Research:** SNN / GANS / AE
+**Research:** Machine Learning · Deep Learning · Computer Vision · SNNs
 
-**Work:** AI Analyst @ Layer7.mx · Healthcare AI @ Hospital Ángeles
+**Work:** AI Analyst @ Layer7.mx · Data Scientist @ Hospital Ángeles Puebla
 
 **Technologies**
 
-**Languages** · Python · Rust · C++ · C · Bash · SQL  
-**AI & ML** · PyTorch · TensorFlow · Scikit-Learn · Hugging Face · LangChain · OpenAI · CUDA 
-**Backend & Data** · FastAPI · PostgreSQL · MongoDB · Sqlalchemy · Gradio · Streamlit · pandas · NumPy  
-**Infra & MLOps** · Docker · Kubernetes · MLflow · AWS · Azure · Google Cloud · Linux  · Git · Github Actions
+**Machine Learning** · Python · PyTorch · TensorFlow · Keras · Scikit-Learn · Hugging Face  
+**ML Systems & MLOps** · MLflow · Weights & Biases · Docker · Kubernetes · FastAPI · Linux  
+**Model Serving** · vLLM · Ollama · CUDA  
+**Data & Backend** · Pandas · NumPy · PostgreSQL · MongoDB · SQLAlchemy · Gradio · Streamlit  
+**Generative AI** · LLMs · LangChain · OpenAI  
+**Systems & Programming** · C++ · Rust · C · Bash · SQL  
+**Cloud & CI/CD** · AWS · Azure · Google Cloud · Git · GitHub Actions
 
 <p align="left">
   <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=reschip&theme=github_dark&hide_border=true" height="150"/>
