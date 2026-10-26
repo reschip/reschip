@@ -19,7 +19,6 @@ Machine Learning Engineer · Deep Learning · ML Systems · Applied ML Research
 
 <p align="left">
   <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=reschip&theme=github_dark&hide_border=true" height="150"/>
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=reschip&layout=compact&theme=github_dark&hide_border=true&hide=Jupyter%20Notebook" height="150"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=reschip&layout=compact&theme=github_dark&hide_border=true&hide=Jupyter%20Notebook,HTML,CSS,SCSS,Sass,Less,TeX,Makefile,CMake,Dockerfile,Markdown,Rich%20Text%20Format,PostScript" height="150"/>
 </p>
-
 <sub>Stats based on public repositories only.</sub>
