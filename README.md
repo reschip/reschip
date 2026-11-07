@@ -1,13 +1,11 @@
 # Andrés Cruz Chipol
-Machine Learning Engineer · Deep Learning · ML Systems · Applied ML Research
+Machine Learning Engineer · Deep Learning · ML Systems · AI Engineer
 
 [LinkedIn](https://linkedin.com/in/andreschipol) · [Academic](https://computacion.cs.cinvestav.mx/~andres.cruz/) · [Website](https://andreschipol.com)
 
 **Research:** Machine Learning · Deep Learning · Computer Vision · SNNs
 
-**Work:** AI Analyst @ Layer7.mx · Data Scientist @ Hospital Ángeles Puebla
-
-**Technologies**
+Make it Simple !
 
 **Machine Learning** · Python · PyTorch · TensorFlow · Keras · Scikit-Learn · Hugging Face  
 **ML Systems & MLOps** · MLflow · Weights & Biases · Docker · Kubernetes · FastAPI · Linux  
