@@ -20,3 +20,5 @@ Make it Simple !
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=reschip&layout=compact&theme=github_dark&hide_border=true&hide=Jupyter%20Notebook,Astro,MDX,HTML,CSS,SCSS,Sass,Less,TeX,Makefile,CMake,Dockerfile,Markdown,Rich%20Text%20Format,PostScript" height="150"/>
 </p>
 <sub>Stats based on public repositories only.</sub>
+
+Happy to connect regarding questions or opportunities.
