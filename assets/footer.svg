@@ -1,0 +1,36 @@
+<svg width="840" height="58" viewBox="0 0 840 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .meta { font: 400 11px ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; fill: #656d76; letter-spacing: 0.3px; }
+    .mode { font: 600 10px ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; fill: #FFFFFF; letter-spacing: 0.8px; }
+    .trace { stroke: #1f2328; stroke-opacity: 0.16; }
+    .spike-peak { stroke: #FF3E14; }
+    .accent { fill: #FF3E14; }
+    @media (prefers-color-scheme: dark) {
+      .meta { fill: #8b949e; }
+      .trace { stroke: #e6edf3; stroke-opacity: 0.16; }
+    }
+  </style>
+
+  <!-- Traza de potencial de membrana LIF (reposo -> integración -> spike -> reset) -->
+  <path class="trace" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" d="M 8 20 L 660 20 Q 698 19 716 13 L 721 4 L 725 25 L 730 20 L 832 20" />
+
+  <!-- Potencial de acción resaltado en #FF3E14 -->
+  <path class="spike-peak" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" d="M 716 13 L 721 4 L 725 25 L 730 20" />
+
+  <!-- Pulso recorriendo la membrana -->
+  <circle r="2" class="accent">
+    <animateMotion dur="4.5s" repeatCount="indefinite" path="M 8 20 L 660 20 Q 698 19 716 13 L 721 4 L 725 25 L 730 20 L 832 20" />
+    <animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;0.08;0.92;1" dur="4.5s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Statusline estilo Vim / Zsh -->
+  <rect x="8" y="33" width="46" height="16" rx="2" class="accent" />
+  <text x="31" y="44" text-anchor="middle" class="mode">READY</text>
+
+  <text x="64" y="45" class="meta">Open to AI / ML Systems roles · México</text>
+
+  <text x="822" y="45" text-anchor="end" class="meta">reschip · andreschipol.com</text>
+  <rect x="826" y="35" width="6" height="12" class="accent">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.49;0.5;0.99;1" dur="1.4s" repeatCount="indefinite" />
+  </rect>
+</svg>
