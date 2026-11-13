@@ -1,0 +1,178 @@
+<svg width="840" height="175" viewBox="0 0 840 175" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .name { font: 600 28px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; letter-spacing: -0.6px; }
+    .areas { font: 400 13.5px ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; fill: #656d76; letter-spacing: 0.2px; }
+    .synapse { stroke: #1f2328; stroke-opacity: 0.11; }
+    .synapse-weighted { stroke: #1f2328; stroke-opacity: 0.26; }
+    .fwd-pulse { fill: #1f2328; }
+    .halo { stroke: #1f2328; fill: none; }
+    .neuron { fill: #1f2328; fill-opacity: 0.65; }
+    .grad-l3 { stroke: #FF3E14; stroke-opacity: 0.90; }
+    .grad-l2 { stroke: #FF3E14; stroke-opacity: 0.60; }
+    .grad-l1 { stroke: #FF3E14; stroke-opacity: 0.35; }
+    .accent { fill: #FF3E14; }
+    .accent-ring { stroke: #FF3E14; fill: none; }
+    @media (prefers-color-scheme: dark) {
+      .name { fill: #f0f6fc; }
+      .areas { fill: #8b949e; }
+      .synapse { stroke: #e6edf3; stroke-opacity: 0.10; }
+      .synapse-weighted { stroke: #e6edf3; stroke-opacity: 0.26; }
+      .fwd-pulse { fill: #e6edf3; }
+      .halo { stroke: #e6edf3; }
+      .neuron { fill: #e6edf3; fill-opacity: 0.72; }
+    }
+  </style>
+
+  <!-- Tipografía -->
+  <text x="8" y="81" class="name">Andrés Cruz Chipol</text>
+  <text x="8" y="108" class="areas">ML Systems · Deep Learning · SNNs · TinyML</text>
+
+  <!-- Topología 3 -> 5 -> 4 -> 3 (x = 515, 612, 708, 805) -->
+  <g stroke-width="0.85">
+    <!-- L1 (48, 88, 128) -> L2 (32, 60, 88, 116, 144) -->
+    <line class="synapse" x1="515" y1="48" x2="612" y2="32" />
+    <line class="synapse-weighted" x1="515" y1="48" x2="612" y2="60" />
+    <line class="synapse" x1="515" y1="48" x2="612" y2="88" />
+    <line class="synapse" x1="515" y1="48" x2="612" y2="116" />
+
+    <line class="synapse" x1="515" y1="88" x2="612" y2="32" />
+    <line class="synapse" x1="515" y1="88" x2="612" y2="60" />
+    <line class="synapse-weighted" x1="515" y1="88" x2="612" y2="88" />
+    <line class="synapse" x1="515" y1="88" x2="612" y2="116" />
+    <line class="synapse" x1="515" y1="88" x2="612" y2="144" />
+
+    <line class="synapse" x1="515" y1="128" x2="612" y2="60" />
+    <line class="synapse" x1="515" y1="128" x2="612" y2="88" />
+    <line class="synapse-weighted" x1="515" y1="128" x2="612" y2="116" />
+    <line class="synapse" x1="515" y1="128" x2="612" y2="144" />
+
+    <!-- L2 -> L3 (42, 73, 104, 135) -->
+    <line class="synapse" x1="612" y1="32" x2="708" y2="42" />
+    <line class="synapse" x1="612" y1="32" x2="708" y2="73" />
+    <line class="synapse" x1="612" y1="60" x2="708" y2="42" />
+    <line class="synapse-weighted" x1="612" y1="60" x2="708" y2="73" />
+    <line class="synapse" x1="612" y1="60" x2="708" y2="104" />
+    <line class="synapse" x1="612" y1="88" x2="708" y2="73" />
+    <line class="synapse-weighted" x1="612" y1="88" x2="708" y2="104" />
+    <line class="synapse" x1="612" y1="116" x2="708" y2="73" />
+    <line class="synapse-weighted" x1="612" y1="116" x2="708" y2="104" />
+    <line class="synapse" x1="612" y1="116" x2="708" y2="135" />
+    <line class="synapse" x1="612" y1="144" x2="708" y2="104" />
+    <line class="synapse" x1="612" y1="144" x2="708" y2="135" />
+
+    <!-- L3 -> L4 (48, 88, 128) -->
+    <line class="synapse" x1="708" y1="42" x2="805" y2="48" />
+    <line class="synapse" x1="708" y1="42" x2="805" y2="88" />
+    <line class="synapse-weighted" x1="708" y1="73" x2="805" y2="48" />
+    <line class="synapse-weighted" x1="708" y1="73" x2="805" y2="88" />
+    <line class="synapse" x1="708" y1="73" x2="805" y2="128" />
+    <line class="synapse" x1="708" y1="104" x2="805" y2="48" />
+    <line class="synapse-weighted" x1="708" y1="104" x2="805" y2="88" />
+    <line class="synapse-weighted" x1="708" y1="104" x2="805" y2="128" />
+    <line class="synapse" x1="708" y1="135" x2="805" y2="88" />
+    <line class="synapse" x1="708" y1="135" x2="805" y2="128" />
+  </g>
+
+  <!-- FASE 1: Forward Pass (3 activaciones paralelas hacia las 3 salidas) -->
+  <!-- Ruta superior -> salida 1 (805, 48) -->
+  <circle r="2.2" class="fwd-pulse">
+    <animate attributeName="cx" values="515;612;708;805;805" keyTimes="0;0.14;0.28;0.42;1" dur="4.8s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="48;60;73;48;48" keyTimes="0;0.14;0.28;0.42;1" dur="4.8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.95;0.95;0;0" keyTimes="0;0.04;0.39;0.43;1" dur="4.8s" repeatCount="indefinite" />
+  </circle>
+  <!-- Ruta central -> salida 2 (805, 88) -->
+  <circle r="2.4" class="fwd-pulse">
+    <animate attributeName="cx" values="515;612;708;805;805" keyTimes="0;0.14;0.28;0.42;1" dur="4.8s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="88;88;104;88;88" keyTimes="0;0.14;0.28;0.42;1" dur="4.8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.39;0.43;1" dur="4.8s" repeatCount="indefinite" />
+  </circle>
+  <!-- Ruta inferior -> salida 3 (805, 128) -->
+  <circle r="2.1" class="fwd-pulse">
+    <animate attributeName="cx" values="515;612;708;805;805" keyTimes="0;0.14;0.28;0.42;1" dur="4.8s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="128;116;104;128;128" keyTimes="0;0.14;0.28;0.42;1" dur="4.8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.85;0.85;0;0" keyTimes="0;0.04;0.39;0.43;1" dur="4.8s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Halos de activación en nodos intermedios durante Forward Pass -->
+  <circle cx="612" cy="88" r="2.5" class="halo" stroke-width="1">
+    <animate attributeName="r" values="2.5;7.5;2.5" keyTimes="0;0.14;0.26" dur="4.8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.55;0" keyTimes="0;0.14;0.26" dur="4.8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="708" cy="73" r="2.5" class="halo" stroke-width="1">
+    <animate attributeName="r" values="2.5;7.5;2.5" keyTimes="0;0.28;0.40" dur="4.8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.55;0" keyTimes="0;0.28;0.40" dur="4.8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="708" cy="104" r="2.5" class="halo" stroke-width="1">
+    <animate attributeName="r" values="2.5;7.5;2.5" keyTimes="0;0.28;0.40" dur="4.8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.55;0" keyTimes="0;0.28;0.40" dur="4.8s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- FASE 2: Pulso de Loss en Output central (805, 88) -->
+  <circle cx="805" cy="88" r="3" class="accent-ring" stroke-width="1.2">
+    <animate attributeName="r" values="3;14;3" keyTimes="0;0.42;0.56" dur="4.8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;0.95;0" keyTimes="0;0.42;0.56" dur="4.8s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- FASE 3: Backpropagation ramificado (L4 -> L3 -> L2 -> L1) -->
+  <g stroke-linecap="round">
+    <!-- L4 -> L3 (Gradiente fuerte) -->
+    <line class="grad-l3" stroke-width="1.5" x1="805" y1="88" x2="708" y2="73" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" values="100;100;0;0;100" keyTimes="0;0.46;0.58;0.86;1" dur="4.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.47;0.84;0.92" dur="4.8s" repeatCount="indefinite" />
+    </line>
+    <line class="grad-l3" stroke-width="1.5" x1="805" y1="88" x2="708" y2="104" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" values="100;100;0;0;100" keyTimes="0;0.46;0.58;0.86;1" dur="4.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.47;0.84;0.92" dur="4.8s" repeatCount="indefinite" />
+    </line>
+
+    <!-- L3 -> L2 (Gradiente medio) -->
+    <line class="grad-l2" stroke-width="1.25" x1="708" y1="73" x2="612" y2="60" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" values="100;100;0;0;100" keyTimes="0;0.58;0.70;0.86;1" dur="4.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.57;0.59;0.84;0.92" dur="4.8s" repeatCount="indefinite" />
+    </line>
+    <line class="grad-l2" stroke-width="1.25" x1="708" y1="104" x2="612" y2="88" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" values="100;100;0;0;100" keyTimes="0;0.58;0.70;0.86;1" dur="4.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.57;0.59;0.84;0.92" dur="4.8s" repeatCount="indefinite" />
+    </line>
+    <line class="grad-l2" stroke-width="1.25" x1="708" y1="104" x2="612" y2="116" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" values="100;100;0;0;100" keyTimes="0;0.58;0.70;0.86;1" dur="4.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.57;0.59;0.84;0.92" dur="4.8s" repeatCount="indefinite" />
+    </line>
+
+    <!-- L2 -> L1 (Gradiente atenuado) -->
+    <line class="grad-l1" stroke-width="1.1" x1="612" y1="60" x2="515" y2="48" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" values="100;100;0;0;100" keyTimes="0;0.70;0.81;0.86;1" dur="4.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.69;0.71;0.84;0.92" dur="4.8s" repeatCount="indefinite" />
+    </line>
+    <line class="grad-l1" stroke-width="1.1" x1="612" y1="88" x2="515" y2="88" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" values="100;100;0;0;100" keyTimes="0;0.70;0.81;0.86;1" dur="4.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.69;0.71;0.84;0.92" dur="4.8s" repeatCount="indefinite" />
+    </line>
+    <line class="grad-l1" stroke-width="1.1" x1="612" y1="116" x2="515" y2="128" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" values="100;100;0;0;100" keyTimes="0;0.70;0.81;0.86;1" dur="4.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.69;0.71;0.84;0.92" dur="4.8s" repeatCount="indefinite" />
+    </line>
+  </g>
+
+  <!-- Nodos de la red -->
+  <g class="neuron">
+    <circle cx="515" cy="48" r="2.3" />
+    <circle cx="515" cy="88" r="2.3" />
+    <circle cx="515" cy="128" r="2.3" />
+
+    <circle cx="612" cy="32" r="2.3" />
+    <circle cx="612" cy="60" r="2.3" />
+    <circle cx="612" cy="88" r="2.3" />
+    <circle cx="612" cy="116" r="2.3" />
+    <circle cx="612" cy="144" r="2.3" />
+
+    <circle cx="708" cy="42" r="2.3" />
+    <circle cx="708" cy="73" r="2.3" />
+    <circle cx="708" cy="104" r="2.3" />
+    <circle cx="708" cy="135" r="2.3" />
+
+    <circle cx="805" cy="48" r="2.3" />
+    <circle cx="805" cy="128" r="2.3" />
+  </g>
+  <circle cx="805" cy="88" r="2.8" class="accent" />
+</svg>
