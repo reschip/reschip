@@ -1,4 +1,5 @@
 <img src="./assets/header.svg" alt="Andrés Cruz Chipol" width="100%" />
+
 [LinkedIn](https://linkedin.com/in/andreschipol) · [Cinvestav Page](https://computacion.cs.cinvestav.mx/~andres.cruz/) · [Website](https://andreschipol.com) · [YouTube](https://youtube.com/@tu-canal)
 
 Hi, I'm Andrés, a Computer Scientist and AI / ML Systems Engineer based in <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f1f2-1f1fd.svg" alt="Mexico" width="18" align="absmiddle" />. I like building ML software from scratch and understanding how models actually run on real hardware.
