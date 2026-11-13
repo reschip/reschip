@@ -1,24 +1,21 @@
-# Andrés Cruz Chipol
-Machine Learning Engineer · Deep Learning · ML Systems · AI Engineer
+<img src="./assets/header.svg" alt="Andrés Cruz Chipol" width="100%" />
 
-[LinkedIn](https://linkedin.com/in/andreschipol) · [Academic](https://computacion.cs.cinvestav.mx/~andres.cruz/) · [Website](https://andreschipol.com)
+[LinkedIn](https://linkedin.com/in/andreschipol) · [Cinvestav Page](https://computacion.cs.cinvestav.mx/~andres.cruz/) · [Website](https://andreschipol.com) · [YouTube](https://youtube.com/@tu-canal)
 
-**Research:** Machine Learning · Deep Learning · Computer Vision · SNNs
+Hi, I'm Andrés, a Computer Scientist and AI / ML Systems Engineer based in <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f1f2-1f1fd.svg" alt="Mexico" width="18" align="absmiddle" />. I like building ML software from scratch and understanding how models actually run on real hardware.
 
-Make it Simple !
+Right now, I'm finishing my M.Sc. in Computer Science at **Cinvestav**, working on **Spiking Neural Networks (SNNs)**, Computer Vision, and **TinyML** deployment on constrained devices. I'm currently looking for new roles in AI/ML engineering.
 
-**Machine Learning** · Python · PyTorch · TensorFlow · Keras · Scikit-Learn · Hugging Face  
-**ML Systems & MLOps** · MLflow · Weights & Biases · Docker · Kubernetes · FastAPI · Linux  
-**Model Serving** · vLLM · Ollama · CUDA · llama.cpp  
-**Data & Backend** · Pandas · NumPy · PostgreSQL · MongoDB · SQLAlchemy · Gradio · Streamlit  
-**Generative AI** · LLMs · LangChain · LangGraph · OpenAI  
-**Systems & Programming** · C++ · Rust · C · Bash · SQL  
-**Cloud & CI/CD** · AWS · Azure · Google Cloud · Git · GitHub Actions 
+<img src="./assets/stack.svg" alt="Core Technologies" width="100%" />
 
-<p align="left">
-  <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=reschip&theme=github_dark&hide_border=true" height="150"/>
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=reschip&layout=compact&theme=github_dark&hide_border=true&hide=Jupyter%20Notebook,Astro,MDX,HTML,CSS,SCSS,Sass,Less,TeX,Makefile,CMake,Dockerfile,Markdown,Rich%20Text%20Format,PostScript" height="150"/>
-</p>
-<sub>Stats based on public repositories only.</sub>
+### Outside
 
-Happy to connect regarding questions or opportunities.
+- I run a YouTube channel making technical videos on AI engineering, ML infrastructure, and system performance from the ground up.
+- I build small, practical tools I actually use every day, from guitar utilities to lightweight mobile apps like *snakein* on Google Play.
+- I keep my dev setup minimal with `zsh`, `VS Code`, `Vim`, and `scrcpy` (no heavy IDEs).
+- In my free time, I play guitar, edit videos to unwind, and play *Minecraft*, *Cities: Skylines*, and *Resident Evil*.
+
+
+If you're hiring for AI/ML systems roles or just want to talk about low-level engineering, feel free to message me on [LinkedIn](https://linkedin.com/in/andreschipol) 
+<br/>
+<img src="./assets/footer.svg" alt="Footer" width="100%" />
