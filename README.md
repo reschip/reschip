@@ -16,6 +16,6 @@ Right now, I'm finishing my M.Sc. in Computer Science at **Cinvestav**, working 
 - In my free time, I play guitar, edit videos to unwind, and play *Minecraft*, *Cities: Skylines*, and *Resident Evil*.
 
 
-If you're hiring for AI/ML systems roles or just want to talk about low-level engineering, feel free to message me on [LinkedIn](https://linkedin.com/in/andreschipol) 
+Hiring or want to talk ML systems? Drop me a message on [LinkedIn](https://linkedin.com/in/andreschipol) 
 <br/>
 <img src="./assets/footer.svg" alt="Footer" width="100%" />
